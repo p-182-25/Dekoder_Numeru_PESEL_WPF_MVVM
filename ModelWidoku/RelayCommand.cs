@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Input;
 
+//http://www.c-sharpcorner.com/UploadFile/20c06b/icommand-and-relaycommand-in-wpf/
+
 namespace DekoderPESEL.ModelWidoku
 {
     public class RelayCommand : ICommand
