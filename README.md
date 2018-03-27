@@ -1,3 +1,3 @@
 # Dekoder_Numeru_PESEL_WPF_MVVM
-Z wprowadzonego przez użytkownika poprawnego nr PESEL (program analizuje cyfrę kontrolną) program odczytuje datę urodzenia, płeć oraz nr seryjny.
+From the correct PESEL number entered by the user (the PESEL number check digit is analysed), the program reads the date of birth, gender and serial number.
 https://pl.wikipedia.org/wiki/PESEL
