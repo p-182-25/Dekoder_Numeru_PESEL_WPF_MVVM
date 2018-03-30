@@ -207,9 +207,7 @@ namespace DekoderPESEL.ModelWidoku
         //ustalenie płci na podstawie PESEL
         public string JakaPłeć(string pesel)
         {
-            if (pesel[9].Equals('0') || pesel[9].Equals('2') || pesel[9].Equals('4') || pesel[9].Equals('6') || pesel[9].Equals('8'))
-                return "kobieta";
-            return "mężczyzna";
+            return (pesel[9].Equals('0') || pesel[9].Equals('2') || pesel[9].Equals('4') || pesel[9].Equals('6') || pesel[9].Equals('8')) ? "kobieta" : "mężczyzna";
         }
         #endregion
     }
